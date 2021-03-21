@@ -1,3 +1,4 @@
+
 import discord
 import os
 
@@ -19,18 +20,18 @@ async def on_message(message):
   if message.content.startswith('wtf'):
     await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
   if message.content.startswith('bitch'):
-    await message.channel.sent(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
+    await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
   if message.content.startswith('fuck off'):
-    await message.channel.sent(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
+    await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
   if message.content.startswith('he\'s black'):
-    await message.channel.sent(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
+    await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
   if message.content.startswith('she\'s black'):
-    await message.channel.sent(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
+    await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
   if message.content.startswith('whore'):
-    await message.channel.sent(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
+    await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
   if message.content.startswith('hoe'):
-    await message.channel.sent(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
-   if message.content.startswith('asshole'):
-    await message.channel.sent(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
+    await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
+  if message.content.startswith('asshole'):
+    await message.channel.send(':rotating_light: use of inappropriate word :rotating_light:, Please review our Code of Conduct here:- https://www.pugroups.in/code-of-conduct')
 
 client.run(os.getenv('TOKEN'))
